@@ -12,21 +12,19 @@
         display: flex
         flex-direction: column
         color: $text-color
-        padding-right: 123px
+        padding-right: 100px
         flex-basis: 50%
         &__title
             margin-top: 30px
             margin-bottom: 40px
-            font-family: "Museo Sans Cyrl -700", sans-serif
+            +bold
             font-size: 41px
-            font-weight: 400
             line-height: 55px
         &__subtitle
             margin-bottom: 69px
             display: inline-block
-            font-family: "Museo Sans Cyrl -700", sans-serif
             font-size: 20px
-            font-weight: 400
+            +bold
     &-list
         list-style: none
         &__item
@@ -45,7 +43,6 @@
             border-radius: 50%    
         &__text
             max-width: 250px
-            font-family: "Museo Sans Cyrl -300", sans-serif
             font-size: 14px
-            font-weight: 400
             line-height: 24px
+            +reg
