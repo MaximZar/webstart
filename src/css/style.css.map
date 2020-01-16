@@ -7,7 +7,9 @@
         "../sass/blocks/_header.sass",
         "../sass/blocks<1200/_header.sass",
         "../sass/blocks<768/_header.sass",
-        "../sass/blocks<576/_header.sass"
+        "../sass/blocks<576/_header.sass",
+        "../sass/blocks/_hero.sass",
+        "../sass/blocks<768/_hero<768.sass"
     ],
     "names": [],
     "file": "style.css"
