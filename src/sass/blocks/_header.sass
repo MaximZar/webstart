@@ -5,12 +5,13 @@
 .container
     width: 1170px
     margin: auto
-    display: flex
-    justify-content: space-between
 .button
     border-radius: 10px
 .navbar
     padding: 8px 0px
+    &-box
+        display: flex
+        justify-content: space-between
     &__logo
         width: 155px
         &-img
@@ -21,6 +22,8 @@
     &__text
         display: flex
         flex-direction: column
+        justify-content: space-between
+        text-align: right
     &__address
         margin-bottom: 9px
         font-size: 13px
