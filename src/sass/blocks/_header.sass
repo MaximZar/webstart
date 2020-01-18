@@ -1,5 +1,4 @@
 *
-    box-sizing: border-box
     color: $text-color
     +reg
 .container
@@ -7,6 +6,10 @@
     margin: auto
 .button
     border-radius: 10px
+    transition: 0.4s all
+    &:hover
+        background-color: lighten($main-color, 20%)
+        cursor: pointer
 .navbar
     padding: 10px 0px
     &-box
@@ -34,6 +37,6 @@
     &__button
         margin-left: 30px
         padding: 18px 30px
-        background-color: $main-color
         font-size: 13px
+        background-color: $main-color
         +bold
