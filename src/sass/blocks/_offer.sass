@@ -1,0 +1,74 @@
+.section-offer  
+    padding: 80px 0
+    position: relative
+    &::before
+        content: ''
+        height: 100%
+        width: 50%
+        background: url(../img/offer-img.jpg) no-repeat 
+        background-size: cover
+        position: absolute
+        top: 0 
+        right: 0
+.offer-text
+    width: 50%
+    padding-right: 90px
+    &__title
+        margin-bottom: 20px
+        width: 350px
+        color: $text-color
+        font-size: 24px
+        line-height: 35px
+        +bold
+    &__subtitle
+        margin-bottom: 31px
+        display: inline-block
+        width: 250px
+        color: $text-color
+        font-size: 16px
+        line-height: 18px
+        +reg
+.form-offer
+    &__input
+        margin-bottom: 25px
+        padding: 22px 24px
+        display: inline-block
+        width: 240px
+        border-radius: 10px
+        border: 1px solid $input-border 
+        font-size: 15px
+        color: $placeholder-color
+        outline: none
+        +reg
+        &:focus
+            border: 1px solid $main-color
+        &:first-child
+            margin-right: 10px
+    &__button
+        margin-bottom: 24px
+        width: 100%
+        padding: 27px
+        font-size: 16px
+.offer-subtext
+    display: flex
+    justify-content: space-between
+    &__support
+        width: 47%
+        color: $text-color
+        font-size: 15px
+        line-height: 24px
+        +reg
+    &__second-column
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        width: 40%
+    &__recall
+        color: $text-color
+        font-size: 15px
+        line-height: 24px
+        +reg
+    &__number
+        color: $text-color
+        font-size: 15px
+        +bold
