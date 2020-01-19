@@ -16,6 +16,8 @@
 
 .modal-text { margin-bottom: 10px; }
 
+#btnUp { padding: 15px; position: fixed; bottom: 1%; right: 1%; color: #ffd200; background-color: #333333; font-family: 'Museo Sans Cyrl 300', sans-serif; font-weight: 300; }
+
 * { color: #333333; font-family: 'Museo Sans Cyrl 300', sans-serif; font-weight: 300; }
 
 .container { width: 1170px; margin: auto; }
