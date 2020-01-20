@@ -33,4 +33,18 @@ $(function(){
         $('body,html').animate({scrollTop: pos}, 500);
     });
 
+        var windowHeight = $(window).height();
+ 
+        $(document).on('scroll', function() {
+            $('.section-price').each(function() {
+                var self = $(this),
+                height = self.offset().top + self.height();
+                if ($(document).scrollTop() + windowHeight >= height) {
+                    $('#btnUp').addClass('animate');
+                } else {
+                    $('#btnUp').removeClass('animate');
+                }
+            });
+        });
+
 });
