@@ -144,4 +144,8 @@
 .arrows__left:hover, .arrows__right:hover { cursor: pointer; }
 
 .slider__image { margin: auto; }
+
+.owl-arrows { margin: auto; margin-top: 70px; width: 120px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.prev:hover, .next:hover { cursor: pointer; }
 /*# sourceMappingURL=style.css.map */
