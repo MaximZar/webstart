@@ -69,9 +69,9 @@
             <div class="offer-text">
                 <h2 class="offer-text__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
                 <span class="offer-text__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
-                <form action="#" class="form-offer">
-                    <input class="form-offer__input wow fadeIn delay-1s" type="text" name="" id="" placeholder="Ваше имя">
-                    <input class="form-offer__input wow fadeIn delay-1s" type="tel" name="" id="" placeholder="Ваш телефон">
+                <form action="#" id="offer-form" class="form-offer">
+                    <input name="username" class="form-offer__input wow fadeIn delay-1s" type="text" name="" id="" placeholder="Ваше имя">
+                    <input name="phone" class="form-offer__input wow fadeIn delay-1s phone" type="tel" name="" id="" placeholder="Ваш телефон">
                     <button class="button form-offer__button wow fadeIn delay-1s">Получить бесплатный дизайн-проект</button>
                 </form>
                 <div class="offer-subtext">
@@ -158,6 +158,96 @@
     </div>
 </section>
 
+<section class="section-advantages">
+    <div class="container section-advantages__wrap">
+        <h2 class="section-advantages__title">Наши специалисты готовы выехать на замер в любое удобное для Вас время</h2>
+        <span class="section-advantages__subtitle">5 шагов до ремонта</span>
+        <div class="section-advantages-block-wrap">
+            <div class="section-advantages-block">
+                <div class="section-advantages__wrap-image">
+                    <img src="img/advantages/icon-1.svg" alt="" class="section-advantages__image">
+                </div>
+                <p class="section-advantages__description">Вы звоните нам или оставляете заявку</p>
+            </div>
+        
+            <div class="section-advantages__next"><img src="img/advantages/icon.png" alt="" class="section-advantages__img"></div>
+        
+            <div class="section-advantages-block">
+                <div class="section-advantages__wrap-image">
+                    <img src="img/advantages/icon-2.svg" alt="" class="section-advantages__image">
+                </div>
+                <p class="section-advantages__description">Согласуем удобное для Вас время выезда специалиста на замер</p>
+            </div>
+        
+            <div class="section-advantages__next"><img src="img/advantages/icon.png" alt="" class="section-advantages__img"></div>
+        
+            <div class="section-advantages-block">
+                <div class="section-advantages__wrap-image">
+                    <img src="img/advantages/icon-3.svg" alt="" class="section-advantages__image">
+                </div>
+                <p class="section-advantages__description">Рассчитываем смету согласовываем с Вами</p>
+            </div>
+        
+            <div class="section-advantages__next"><img src="img/advantages/icon.png" alt="" class="section-advantages__img"></div>
+        
+            <div class="section-advantages-block">
+                <div class="section-advantages__wrap-image">
+                    <img src="img/advantages/icon-4.svg" alt="" class="section-advantages__image">
+                </div>
+                <p class="section-advantages__description">Подписываем договор закупаем материал по оптовым ценам</p>
+            </div>
+        
+            <div class="section-advantages__next"><img src="img/advantages/icon.png" alt="" class="section-advantages__img"></div>
+        
+            <div class="section-advantages-block">
+                <div class="section-advantages__wrap-image">
+                    <img src="img/advantages/icon-5.svg" alt="" class="section-advantages__image">
+                </div>
+                <p class="section-advantages__description">Выполняем ремонт в указанные сроки</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="interview">
+    <div class="container">
+        <div class="interview-wrap">
+            <div class="interview-text">
+                <h2 class="interview-text__title">Мы можем озвучить Вам примерную стоимость работы и материалов по телефону</h2>
+                <span class="interview-text__subtitle">Для этого нужно ответить на 4 вопроса:</span>
+                <ul class="interview-text__list">
+                    <li class="interview-text__item">
+                        <div class="interview-text__counter">1.</div>
+                        <div class="interview-text__descr">Какова площадь помещения?</div>
+                    </li>
+                    <li class="interview-text__item">
+                        <div class="interview-text__counter">2.</div>
+                        <div class="interview-text__descr">У Вас новостройка или вторичное жилье?</div>
+                    </li>
+                    <li class="interview-text__item">
+                        <div class="interview-text__counter">3.</div>
+                        <div class="interview-text__descr">Где находится помещение, в котором будет производиться ремонт?</div>
+                    </li>
+                    <li class="interview-text__item">
+                        <div class="interview-text__counter">4.</div>
+                        <div class="interview-text__descr">Назначение помещения?</div>
+                    </li>
+                </ul>
+            </div>
+            <form action="#" id="interview-form" class="interview-form">
+                <h2 class="interview-form__title">Оставьте заявку на бесплатный расчет ремонта по телефону</h2>
+                <span class="interview-form__subtitle">Для этого заполните форму ниже</span>
+                <input name="username" type="text" class="interview-form__input input" placeholder="Ваше имя">
+                <input name="email" type="tel" class="interview-form__input input" placeholder="Ваш email">
+                <input name="phone" type="tel" class="interview-form__input input phone" placeholder="Ваш телефон">
+                <button class="interview-form__button button">Рассчитать стоимость</button>
+                <p class="interview-form__subtext">Мы перезвоним Вам в течение 60 секунд</p>
+            </form>
+        </div>
+    </div>
+</section>
+
     <div class="modal" id="modal">
         <div class="modal-block">
             <div class="modal-close" id="close">&times;</div>
@@ -171,7 +261,6 @@
     <div class="button" id="btnUp">Наверх</div>
 
     <script src="js/jQuery.min.js"></script>
-    <script src="js/main.js"></script>
 
     <!-- <script src="js/slick.min.js"></script>
     <script>
@@ -201,11 +290,66 @@
     </script> -->
 
     <script src="js/wow.min.js"></script>
-
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
     <script>
         new WOW().init();
         $(document).ready(function(){
+            $('#interview-form').validate({
+                rules: {
+                    username: {
+                        required: true,
+                        minlength: 2,
+                        maxlength: 15
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    phone: {
+                        required: true
+                    }
+                }, 
+                messages: {
+                    username: {
+                        required: "Заполните поле",
+                        minlength: "Имя должно быть не короче 2 символов",
+                        maxlength: "Имя должно быть не более 15 символов"
+                    },
+                    email: {
+                        required: "Заполните поле",
+                        email: "Введите корректный email"
+                    },
+                    phone: "Заполните поле"
+                },
+                errorClass: "invalid",
+                errorElement: "div"
+            });
+            $('#offer-form').validate({
+                rules: {
+                    username: {
+                        required: true,
+                        minlength: 2,
+                        maxlength: 15
+                    },
+                    phone: {
+                        required: true
+                    }
+                },
+                messages: {
+                    username: {
+                        required: "Заполните поле",
+                        minlength: "Имя должно быть не короче 2 символов",
+                        maxlength: "Имя должно быть не более 15 символов"
+                    },
+                    phone: "Заполните поле"
+                },
+                errorClass: "invalid",
+                errorElement: "div"
+            });
+            $('.phone').mask("8 (999) 999 99-99");
             $('.slider-2').owlCarousel({
                 loop:true,
                 margin: 50,

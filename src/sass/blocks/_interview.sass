@@ -1,0 +1,86 @@
+.interview  
+  background-image: url('../img/interview-color.png'), url('../img/interview-img.jpg')
+  background-position: left center, right center
+  background-size: 50%, contain
+  background-repeat: repeat-y, no-repeat
+  &-wrap
+    padding-top: 95px
+    padding-bottom: 100px
+    display: flex
+    flex-basis: 50%
+    justify-content: space-between
+  &-text
+    &__title
+      width: 520px
+      font-size: 22px
+      line-height: 33px
+      +bold
+      margin-bottom: 30px
+    &__subtitle
+      display: block
+      font-size: 16px
+      line-height: 45px
+      +reg
+      margin-bottom: 80px
+    &__list
+      display: flex
+      flex-direction: column
+    &__item
+      display: flex
+      align-items: center
+      margin-bottom: 26px
+    &__counter
+      margin-right: 32px
+      border: 2px solid #000000
+      border-radius: 50%
+      padding: 8px 10px
+      +bold
+    &__descr
+      max-width: 380px
+      +bold
+  &-form
+    max-width: 380px
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__title
+      max-width: 340px
+      font-size: 22px
+      line-height: 33px
+      +bold
+      text-align: center
+      margin-bottom: 38px
+    &__subtitle
+      font-size: 16px
+      line-height: 35px
+      +reg
+      margin-bottom: 35px
+    &__input
+      margin-bottom: 15px
+      border-radius: 10px
+      border: 1px solid #dddddd
+      background-color: #ffffff
+      padding: 20px
+      width: 370px  
+      font-size: 15px
+      line-height: 24px
+      +reg
+      outline: none
+      &:focus
+        border: 1px solid $main-color
+        border-radius: 10px
+      &:last-of-type
+        margin-bottom: 30px
+    &__button
+      padding: 28px 98px
+      font-size: 16px
+      line-height: 18px
+      +bold
+      margin-bottom: 25px
+    &__subtext
+      font-size: 15px
+      line-height: 24px
+      +reg
+
+  
+  
